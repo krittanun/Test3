@@ -1,0 +1,1 @@
+sudo docker run --rm --privileged -v /var/run/docker.sock:/var/run/docker.sock -v /var/lib/rancher:/var/lib/rancher rancher/agent:v1.2.11 https://35.185.185.158:8080/v1/scripts/8F571928BFCD7BBFF5FE:1546214400000:5BhgTbjh5rxyhB314NLqbWnijw
