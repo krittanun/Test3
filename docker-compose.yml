@@ -1,0 +1,10 @@
+version: "2"
+
+services:
+  rabbitmq:
+    restart: always
+    image: rabbitmq:latest
+    hostname: 'my-rabbit'
+    ports:
+      - "15672:15672"
+      - "1883:1883"
